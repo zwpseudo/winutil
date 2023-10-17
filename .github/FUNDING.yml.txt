@@ -1,2 +1,0 @@
-custom: https://www.watford.cloud/windows-toolbox
-github: zwpseudo
