@@ -1211,14 +1211,14 @@ Function Invoke-WPFFormVariables {
     Write-Host "     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
     Write-Host "   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
     Write-Host ""
-	Write-Host ""
-	Write-Host ""
-	Write-Host "               Watford   "
+    Write-Host ""
+    Write-Host ""
+    Write-Host "               Watford   "
     Write-Host "           Windows Toolbox"
-	Write-Host ""
-	Write-Host ""
-	Write-Host ""
-	Write-Host ""
+    Write-Host ""
+    Write-Host ""
+    Write-Host ""
+    Write-Host ""
 
     #====DEBUG GUI Elements====
 
