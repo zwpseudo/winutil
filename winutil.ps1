@@ -28,7 +28,7 @@ $sync.ProcessRunning = $false
 
 if (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
     Write-Output "Winutil needs to be run as Administrator. Attempting to relaunch."
-    Start-Process -Verb runas -FilePath powershell.exe -ArgumentList "iwr -useb https://watford.cloud/win | iex"
+    Start-Process -Verb runas -FilePath powershell.exe -ArgumentList "iwr -useb https://winutil.watford.cloud | iex"
     break
 }
 Function Get-WinUtilCheckBoxes {
@@ -1508,7 +1508,7 @@ function Invoke-WPFShortcut {
     Switch ($ShortcutToAdd) {
         "WinUtil" {
             $SourceExe = "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" 
-            $IRM = 'irm https://watford.cloud/win | iex'
+            $IRM = 'irm https://winutil.watford.cloud | iex'
             $Powershell = '-ExecutionPolicy Bypass -Command "Start-Process powershell.exe -verb runas -ArgumentList'
             $ArgumentsToSourceExe = "$powershell '$IRM'"
             $DestinationName = "WinUtil.lnk"
