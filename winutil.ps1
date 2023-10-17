@@ -10,7 +10,7 @@
     Author         : Zackrey Watford @zackreywatford
     Runspace Author: @zwpseudo
     GitHub         : https://github.com/zwpseudo
-    Version        : 23.09.23
+    Version        : 23.10.17
 #>
 
 Start-Transcript $ENV:TEMP\Winutil.log -Append
@@ -21,7 +21,7 @@ Add-Type -AssemblyName System.Windows.Forms
 # variable to sync between runspaces
 $sync = [Hashtable]::Synchronized(@{})
 $sync.PSScriptRoot = $PSScriptRoot
-$sync.version = "23.09.23"
+$sync.version = "23.10.17"
 $sync.configs = @{}
 $sync.ProcessRunning = $false
 
@@ -1203,17 +1203,25 @@ Function Invoke-WPFFormVariables {
 
 
     Write-Host ""
-    Write-Host "  @@@@@@@@@@@@@@@@@@@@     @@@@@@@      @@@@@@@"
-    Write-Host "  @@@@@@@@@@@@@@@@@      @@@@@@@     @@@@@@@@"
-    Write-Host "          @@@@@@@     @@@@@@@      @@@@@@@"
-    Write-Host "       @@@@@@@      @@@@@@@     @@@@@@@@"
-    Write-Host "     @@@@@@@     @@@@@@@@     @@@@@@@"
-    Write-Host "  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
-    Write-Host "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
+    Write-Host "    CCCCCCCCCCCCCTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT   "
+    Write-Host " CCC::::::::::::CT:::::::::::::::::::::TT:::::::::::::::::::::T   "
+    Write-Host "CC:::::::::::::::CT:::::::::::::::::::::TT:::::::::::::::::::::T  "
+    Write-Host "C:::::CCCCCCCC::::CT:::::TT:::::::TT:::::TT:::::TT:::::::TT:::::T "
+    Write-Host "C:::::C       CCCCCCTTTTTT  T:::::T  TTTTTTTTTTTT  T:::::T  TTTTTT"
+    Write-Host "C:::::C                     T:::::T                T:::::T        "
+    Write-Host "C:::::C                     T:::::T                T:::::T        "
+    Write-Host "C:::::C                     T:::::T                T:::::T        "
+    Write-Host "C:::::C                     T:::::T                T:::::T        "
+    Write-Host "C:::::C                     T:::::T                T:::::T        "
+    Write-Host "C:::::C                     T:::::T                T:::::T        "
+    Write-Host "C:::::C       CCCCCC        T:::::T                T:::::T        "
+    Write-Host "C:::::CCCCCCCC::::C      TT:::::::TT            TT:::::::TT       "
+    Write-Host "CC:::::::::::::::C       T:::::::::T            T:::::::::T       "
+    Write-Host "CCC::::::::::::C         T:::::::::T            T:::::::::T       "
+    Write-Host "  CCCCCCCCCCCCC          TTTTTTTTTTT            TTTTTTTTTTT       "
     Write-Host ""
-    Write-Host ""
-    Write-Host "     ====  Watford Cloud   ====="
-    Write-Host "     ===== Windows Toolbox ====="
+    Write-Host "====Zackrey Watford Tech====="
+    Write-Host "=====Windows Toolbox====="
 
 
     #====DEBUG GUI Elements====
@@ -2083,7 +2091,7 @@ $inputXML = '<Window x:Class="WinUtility.MainWindow"
         mc:Ignorable="d"
         Background="{MainBackgroundColor}"
         WindowStartupLocation="CenterScreen"
-        Title="Zackrey Watford Tech''s Windows Utility" Height="800" Width="1200">
+        Title="Watford Windows Utility" Height="800" Width="1200">
     
     <Window.Resources>
         <Style TargetType="ComboBox">
