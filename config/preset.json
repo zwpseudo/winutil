@@ -1,0 +1,35 @@
+{
+  "desktop": [
+    "WPFEssTweaksAH",
+    "WPFEssTweaksDVR",
+    "WPFEssTweaksHiber",
+    "WPFEssTweaksHome",
+    "WPFEssTweaksLoc",
+    "WPFEssTweaksOO",
+    "WPFEssTweaksServices",
+    "WPFEssTweaksStorage",
+    "WPFEssTweaksTele",
+    "WPFEssTweaksWifi",
+    "WPFMiscTweaksPower",
+    "WPFMiscTweaksNum"
+  ],
+  "laptop": [
+    "WPFEssTweaksAH",
+    "WPFEssTweaksDVR",
+    "WPFEssTweaksHome",
+    "WPFEssTweaksLoc",
+    "WPFEssTweaksOO",
+    "WPFEssTweaksServices",
+    "WPFEssTweaksStorage",
+    "WPFEssTweaksTele",
+    "WPFEssTweaksWifi",
+    "WPFMiscTweaksLapPower",
+    "WPFMiscTweaksLapNum"
+  ],
+  "minimal": [
+    "WPFEssTweaksHome",
+    "WPFEssTweaksOO",
+    "WPFEssTweaksServices",
+    "WPFEssTweaksTele"
+  ]
+}
